@@ -101,7 +101,7 @@ a {
 
 /*-------Second Class | Sheet 2------*/
 .second {
-   
+
     background: #ff1141;
     background: -webkit-linear-gradient(to right, #ff7474, #ed1842);
     background: linear-gradient(to right, #ff818112, #e814141b);
@@ -139,7 +139,7 @@ a {
 }
 
 .box {
-    
+
     overflow: hidden;
     width: 25%;
     float: left;
@@ -156,7 +156,11 @@ a {
 }
 
 .all {
-    vertical-align: bottom;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.allsecond {
     width: 80%;
     margin: 0 auto;
 }
@@ -165,47 +169,116 @@ a {
     clear: both;
 }
 
+.priceflower {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.priceflower a,
+p {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 12px;
+}
+
+.priceflower a {
+    color: black;
+    font-weight: 500;
+}
+
+.addtocard {
+    opacity: 0;
+    transition: .4s;
+    color: black;
+}
+
+.addtocard:hover {
+    color: #ed1842;
+}
+
+.box:hover .addtocard {
+    opacity: 1;
+}
+
+.priceflower p {
+    padding-right: 240px;
+    transition: .4s;
+}
+
+.box:hover p {
+    opacity: 0;
+}
+
 /*-------Fourth Class | Sheet 4------*/
 .fourth {
     background: #ff1141;
     background: -webkit-linear-gradient(to right, #ff7474, #ed1842);
     background: linear-gradient(to right, #ff818112, #e814141b);
-    padding: 20rem;
+    padding: 20rem 0;
 }
-.flowerexperts{
+
+.flowerexperts {
     font-size: 20px;
     font-family: 'Playfair Display', serif;
     text-align: center;
     width: auto;
     margin-bottom: 50px;
 }
-.flowerexperts h1{
+
+.flowerexperts h1 {
     margin-top: -9rem;
     color: #1e1e1e;
     font-weight: 100;
 }
-.flowerexperts p{
+
+.flowerexperts p {
     width: 640px;
     margin-left: 120px;
     margin-top: 20px;
     color: rgb(112, 112, 112);
+    margin: auto;
 }
-.experts{
-    
+
+.experts img {
+    margin-left: 11rem;
+    text-align: center;
 }
-.exp{
-    overflow: hidden;
-    width: 25%;
+
+.exp {
+
+    width: 21%;
     float: left;
 }
 
 .exp img {
     overflow: hidden;
-    width: 100%;
+    width: 60%;
     transition: .7s;
-    
+
 }
 
 .exp img:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
+}
+
+.exp h4,
+p {
+    text-align: center;
+    margin-left: 110px;
+    padding-left: 26px;
+    width: 300px;
+}
+
+.exp h4 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-family: 'Montserrat';
+    font-weight: 300;
+}
+
+.exp p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 200;
 }
